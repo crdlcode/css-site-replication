@@ -1,0 +1,56 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+body {
+  background: url("../images/bgtile.png") repeat-x;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.page {
+  margin: 90px auto 0;
+  width: 880px;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+}
+
+.content{
+  background-color: white;
+  border-radius: 2%;
+  padding: 40px;
+}
+ h1 {
+    color: #06365f;
+    font-size: 27px;
+    line-height: 1.3;
+    margin-top: 0;
+}
+
+nav {
+  margin top: 20px;
+  font-size: .7em;
+}
+
+li {
+  display: inline;
+  text-transform: uppercase;
+}
+
+nav a {
+color:#06365f;
+font-weight: bold;
+text-decoration: none;
+margin: 10px;
+}
+
+footer {
+  text-align: center;
+}
